@@ -1,0 +1,5 @@
+git does not allow to create a branch named fix and fix/bug because when i already have a branch named fix then if i try to create a branch named fix/bug then it says it cannot lock ref as fix already exists it cannot create fix/bug 
+because in such situation due to its internal structure git assumes fix/bug as sub branch of fix itslef which is a conflict and may arise an issue
+and hence it doesnt aloow to create fix/bug as it has that slash in it which makes it difficult for git to differentiate.
+
+but it allows a branch anamed fix and another named bug/fix
