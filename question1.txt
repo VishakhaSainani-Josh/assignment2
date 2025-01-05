@@ -1,0 +1,12 @@
+if a file is deleted from main but updated in branch then i can still update it because as it still exists in branch and it can be staged, commited and pushed in branch without any errors.
+if i remove a file from main and not stage that and checkout to my other branch then it will give me warning that you have unstaged changes and you either commit them or stash them.
+this is where stash can be used too.
+
+now, if i deleted a file in master and updated the file in my branch then i will get a merge conflict that says file deleted in head and modified in vishakha. fix conflicts then commit.
+
+but if i removed file from main and did not commit it and try to merge branch in main then it can merge by using fast forward merge without any conflicts.
+in this scenario the file will be overwritten in main by my branch and it will be there with its updated
+
+to handle merge conflict i can simply either remove the file from my branch if i dont want it or i can stage and commit and push it in my main and then merge.
+
+i can also use git merge abort to abort thr merge.

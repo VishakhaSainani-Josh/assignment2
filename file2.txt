@@ -1,0 +1,10 @@
+git ls-files command gives the names of all the files that are in the staging area basically the files that are added in all the branches,
+
+
+ it provides the information about the files that are being tracked by git.
+
+ it does not show ignored files.
+
+ to check ignored files we can use command : git ls-files --ignored
+
+ and to check other files that are not in the staging are we can use --o i.e. --others

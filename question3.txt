@@ -1,0 +1,1 @@
+git checks the content of the file if a file is deletedand other one is added witht he same content then git will automatically rename the first file to this added file.
