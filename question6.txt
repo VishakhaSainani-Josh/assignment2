@@ -1,0 +1,3 @@
+to unstage changes from the staging area i can use the command git restore --staged <filename> and this will unstage my added files
+another method is to use git reset command.
+git reset soft and git reset hard.
