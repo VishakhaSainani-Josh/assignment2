@@ -1,0 +1,1 @@
+to set multiple remote repositaries in git for the same project i can simply use the git remote add origin command and add my repositaries from github or other platform like gitlab.
