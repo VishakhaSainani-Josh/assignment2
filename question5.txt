@@ -1,1 +1,5 @@
+5. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+
+
+
 to set multiple remote repositaries in git for the same project i can simply use the git remote add origin command and add my repositaries from github or other platform like gitlab.
