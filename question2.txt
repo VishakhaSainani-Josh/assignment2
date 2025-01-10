@@ -1,3 +1,7 @@
+2. What does the git `ls-files` command do, and what information does its output provide regarding the state of files in a Git repository?
+
+
+
 git ls-files command gives the names of all the files that are in the staging area basically the files that are added in all the branches,
 
 
