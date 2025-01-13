@@ -3,3 +3,32 @@
 
 
 to set multiple remote repositaries in git for the same project i can simply use the git remote add origin command and add my repositaries from github or other platform like gitlab.
+
+THw following commands are used for the same :
+
+git remote add origin <repository-url>
+
+git remote add gitlab <repository-url>
+
+git remote -v
+
+git push origin main
+
+git push gitlab main
+
+
+The step by step process to add multiple repositaries :
+
+git remote add origin <repository-url>
+
+git remote add gitlab <repository-url>
+
+git add <filename>
+
+git commit -m <msg>
+
+git push origin main
+
+git push gitlab main
+
+
