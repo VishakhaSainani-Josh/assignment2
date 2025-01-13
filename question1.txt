@@ -1,3 +1,5 @@
+1. What happens when a file is deleted in the main branch and updated in a feature branch, and how is this handled during a merge?
+
 if a file is deleted from main but updated in branch then i can still update it because as it still exists in branch and it can be staged, commited and pushed in branch without any errors.
 if i remove a file from main and not stage that and checkout to my other branch then it will give me warning that you have unstaged changes and you either commit them or stash them.
 this is where stash can be used too.
